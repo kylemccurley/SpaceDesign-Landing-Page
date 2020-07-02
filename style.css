@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-image: url("bg_body.gif");
+	font: 400 20px "Nunito Sans", Helvetica, Arial, sans-serif;
+}
+
+header, main, footer {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 125px auto 93px auto;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto;
+	margin-top: 34px;
+}
+
+section:first-of-type {
+	margin-bottom: 155px;
+}
+
+section:last-of-type {
+	padding-bottom: 65px;
+}
+
+h2 {
+	font: 600 2.30rem 'Nunito Sans', Helvetica, Arial, sans-serif;
+	margin-bottom: 1.2rem;
+}
+
+h2::before,
+h2::after {
+  content: "\2022";
+  padding: 0 25px;
+  font-size: 1.8rem;
+  position: relative;
+  bottom: 8px;
+}
+
+section:last-of-type h2 {
+	margin-top: 5px;
+}
+
+h3 {
+	color: #3e98b2;
+	font: 800 1.5rem "Nunito Sans", Helvetica, Arial, sans-serif;
+	padding-bottom: 1.25rem;
+	letter-spacing: 0.03rem;
+}
+
+main {
+	box-sizing: border-box;
+	background-color: white;
+	padding: 102px 95px 0 95px;
+	text-align: center;
+}
+
+footer {
+	background-color: #e3e3e3;
+}
+
+ul {
+	text-align: center;
+	padding: 30px;
+}
+
+ul li {
+	box-sizing: border-box;
+	display: inline;
+	width: 25%;
+	padding: 1.8rem 2.75rem;
+	margin: 0 15px;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
