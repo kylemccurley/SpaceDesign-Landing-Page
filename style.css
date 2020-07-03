@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("bg_body.gif");
+  background-image: url("images/bg_body.gif") 50% 0 repeat;
   font: 400 20px "Nunito Sans", Helvetica, Arial, sans-serif;
 }
 
